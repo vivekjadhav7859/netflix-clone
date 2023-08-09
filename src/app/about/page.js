@@ -1,11 +1,10 @@
-import React from 'react'
 
-const about = () => {
+import Herosection from "@/app/components/Herosection";
+
+const About = () => {
     return (
-        <div>
-            This is about page
-        </div>
-    )
-}
+        <Herosection title={"OUR STORY"} imageUrl={"/about1.svg"} />
+    );
+};
 
-export default about
+export default About;

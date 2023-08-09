@@ -1,10 +1,11 @@
-import Image from 'next/image'
-import styles from './page.module.css'
+import Herosection from "@/app/components/Herosection";
 
-export default function Home() {
+const Page = () => {
   return (
-    <main className={styles.main}>
-      <div>This is home page</div>
-    </main>
-  )
-}
+    <>
+      <Herosection title={"LET\'S WATCH MOVIE TOGETHER"} imageUrl={"/home.svg"} />
+    </>
+  );
+};
+
+export default Page;
